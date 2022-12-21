@@ -1,0 +1,64 @@
+/* Main Part */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+/* Header Part */
+
+header{
+    background: #000000;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.header h1{
+    text-align: center;  /* center || right || left */
+    text-transform: uppercase;  /* capitalize , lowercase , uppercase , none */
+    letter-spacing: 20px; /* Use when you need letter between space */
+
+}
+
+/* Image with overlay  */
+
+.bg-overlay{
+    background: linear-gradient(rgb(0, 0, 0,1),rgb(0, 255, 242,.5)),url('../img/bg-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.bg-overlay h2 {
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.bg-overlay p {
+    color: #FFFFFF;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.btn-div{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bg-overlay button {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 2px solid rgb(13, 200, 175);
+    border-radius: 5px;
+}
